@@ -9,9 +9,11 @@
 </head>
 <body <?php body_class(); ?>>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
+   
     <div class="container">
-      
+    <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logowhitesvg.svg" alt="logo" width="90" height="90">
+          </a>
           <button class="navbar-toggler" 
                   type="button" 
                   data-bs-toggle="collapse" 

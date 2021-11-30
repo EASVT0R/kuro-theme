@@ -59,13 +59,14 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
+    <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="<?php the_field('product_view_image'); ?>" width="500" height="500" alt="Kuro Pro Mousepad">
+      </div>
       <div class="col-md-7">
         <h2 class="featurette-heading"><?php the_field("product_view_title")?><span class="text-muted"></span></h2>
         <p class="lead"><?php the_field("product_view_desc")?></p>
       </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="<?php the_field('product_view_image'); ?>" width="500" height="500" alt="Kuro Pro Mousepad">
-      </div>
+      
     </div>
 
     <hr class="featurette-divider">

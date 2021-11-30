@@ -23,6 +23,30 @@ body {
     flex-direction: column;
 }
 
+.featurette-heading {
+    margin: 0px;
+}
+
+.lead {
+    margin-top: 15px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-top: 11px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.char-limit {
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;

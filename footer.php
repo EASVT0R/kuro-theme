@@ -1,5 +1,5 @@
 <!-- </div> -->
-<div class="footer-dark">
+<div class="footer-dark bg-dark">
         <footer>
         <div class="container">
                 <div class="row">
