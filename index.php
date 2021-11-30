@@ -13,8 +13,8 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>test</h1>
-            <p>test</p>
+            <h1><?php the_field("product_slide_title1")?></h1>
+            <p><?php the_field("product_slide_desc1")?></p>
             <p><a class="btn btn-lg btn-primary" href="#">View Product</a></p>
           </div>
         </div>
@@ -24,8 +24,8 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>test</h1>
-            <p>test</p>
+          <h1><?php the_field("product_slide_title2")?></h1>
+            <p><?php the_field("product_slide_desc2")?></p>
             <p><a class="btn btn-lg btn-primary" href="#">View Product</a></p>
           </div>
         </div>
@@ -35,8 +35,8 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>test</h1>
-            <p>test</p>
+          <h1><?php the_field("product_slide_title3")?></h1>
+            <p><?php the_field("product_slide_desc3")?></p>
             <p><a class="btn btn-lg btn-primary" href="#">View Product</a></p>
           </div>
         </div>
@@ -53,28 +53,25 @@
   </div>
 
 
- 
-    <!-- START THE FEATURETTES -->
+
     <div class="container">
         
     <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">World's best mousepad for gaming <span class="text-muted"></span></h2>
-        <p class="lead">123</p>
+        <h2 class="featurette-heading"><?php the_field("product_view_title")?><span class="text-muted"></span></h2>
+        <p class="lead"><?php the_field("product_view_desc")?></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="<?php the_field('product_view_image'); ?>" width="500" height="500" alt="Kuro Pro Mousepad">
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
+  </div>
   </div>
     <div class="row main-body testimonials  p-md-5 mx-0 ">
         <div class="col-12 d-flex justify-content-center">
@@ -85,27 +82,23 @@
         <div class="col-12">
         <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2><?php the_field("testimo")?></h2>
-        <p>best product ever.</p>
+        <img class="bd-placeholder-img rounded-circle" src="<?php the_field('testimonial_image1'); ?>" width="140" height="140" alt="customer image">
+        <h2><?php the_field("testimonial_name1")?></h2>
+        <p><?php the_field("testimonial_comment1")?></p>
       </div>
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2><?php the_field("frontimages")?></h2>
-        <p>best product ever.</p>
+      <img class="bd-placeholder-img rounded-circle" src="<?php the_field('testimonial_image2'); ?>" width="140" height="140" alt="customer image">
+        <h2><?php the_field("testimonial_name2")?></h2>
+        <p><?php the_field("testimonial_comment2")?></p>
       </div>
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2><?php the_field("testname3")?></h2>
-        <p>best product ever.</p>
+      <img class="bd-placeholder-img rounded-circle" src="<?php the_field('testimonial_image3'); ?>" width="140" height="140" alt="customer image">
+        <h2><?php the_field("testimonial_name3")?></h2>
+        <p><?php the_field("testimonial_comment3")?></p>
       </div>
-    </div><!-- /.row -->
+    </div>
 
     </div>
         </div>
