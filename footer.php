@@ -12,8 +12,8 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Company</h3>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?php echo get_site_url(); ?>/about-us">About Us</a></li>
+                            <li><a href="<?php echo get_site_url(); ?>/contact-us">Contact Us</a></li>
                         </ul>
                     </div>
                 <p class="copyright">Kuro © 2021</p>

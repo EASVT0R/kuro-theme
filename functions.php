@@ -1,6 +1,6 @@
 <?php
 function kuro_register_resources() {
-    wp_enqueue_style("carousel", get_stylesheet_directory_uri() . "/carousel.css");
+    wp_enqueue_style("bs-carousel", get_stylesheet_directory_uri() . "/carousel.css");
     wp_enqueue_style("bootstrap","https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" );
     wp_enqueue_script("bootstrap","https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" );
     wp_enqueue_script("jquery", "https://code.jquery.com/jquery-3.2.1.slim.min.js");
