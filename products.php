@@ -1,6 +1,6 @@
 <?php /*
 Template Name: Products
-Template Post Type: post, page, event
+Template Post Type: page
 */ ?>
 <?php get_header() ?>
 

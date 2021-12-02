@@ -3,9 +3,8 @@
 <div class="container">
     <div class="container-about">
         <div class="row">
-            <!-- Section Titile -->
             <div class="col-md-12">
-                <h1 class="section-title">Love to Hear From You</h1>
+                <h1>Love to Hear From You</h1>
             </div>
         </div>
         <div class="row">
